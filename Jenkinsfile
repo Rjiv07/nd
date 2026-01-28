@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Rjiv07/node-swarm-app.git'
+                git branch: 'main', url: 'https://github.com/Rjiv07/nd.git'
             }
         }
         stage('Build Image') {
